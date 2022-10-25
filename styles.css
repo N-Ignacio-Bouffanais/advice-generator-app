@@ -25,27 +25,30 @@ body{
 }
 .container{
   background-color: var(--Dark-Grayish-Blue);
-  height: 30rem;
-  width: 50rem;
-  padding: 3rem 2rem;
+  height: 35rem;
+  max-height: max-content;
+  max-width: 50rem;
+  padding: 3.5rem 2rem;
   text-align: center;
   border-radius: 1.5rem;
   margin: 25vh auto;
   position: relative;
-
 }
 .container h1{
   color: var(--Neon-Green);
   font-size: 1.2rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
 }
 .container p{
   color: var(--Light-Cyan);
   font-size: 2.8rem;
-  margin: 1.7rem;
+  margin: 2rem;
   font-weight: 800;
 }
-.container .pattern-divider-mobile{
+.container .divider{
+  margin: 0 auto;
+}
+.container #pattern-divider-mobile{
   display: none;
 }
 .container .icon{
@@ -53,7 +56,7 @@ body{
   border-radius: 2.8rem;
   background-color: var(--Neon-Green);
   position: absolute;
-  top: 27rem;
+  top: 32rem;
   left: 22rem;
 }
 .container .icon:hover{
@@ -76,4 +79,15 @@ footer .attribution{
     color: var(--Neon-Green);
     text-decoration: none;
     font-size: 1.5rem;
+}
+@media (max-width:576px) {
+  .container #pattern-divider-mobile{
+    display: block;
+  }
+  .container #pattern-divider-desktop{
+    display: none;
+  }
+  .container .icon{
+    left: 36vw;
+  }
 }

@@ -47,12 +47,20 @@ Users should be able to:
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>ADVICE # <span id="id"></span></h1>
+<p>"<span id="quote"></span>"</p>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+```js
+const sendGetRequest = async () => {
+    try {
+        const resp = await axios.get('https://api.adviceslip.com/advice');
+        document.getElementById("id").innerHTML = resp.data.slip.id;
+        document.getElementById("quote").innerHTML = resp.data.slip.advice;
+    } catch (err) {
+        console.error(err);
+    }
+};
+sendGetRequest();
 ```
 
 ### Continued development
