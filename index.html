@@ -18,11 +18,11 @@
 <body>
 
   <div class="container">
-    <h1>ADVICE # <span></span></h1>
-    <p>"<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, culpa.</span>"</p>
+    <h1>ADVICE # <span id="id"></span></h1>
+    <p>"<span id="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, culpa.</span>"</p>
     <img class="pattern-divider-desktop" src="/images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
     <img class="pattern-divider-mobile" src="/images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
-    <img class="icon" src="/images/icon-dice.svg" alt="icon">
+    <img class="icon" src="/images/icon-dice.svg" alt="icon" onclick="sendGetRequest()">
   </div>
   
   <footer>
@@ -34,7 +34,7 @@
       <a href="https://n-ignacio-bouffanais.github.io/Nicolas_Bouffanais/src/"> Nicolas Bouffanais</a>
     </div>
   </footer>
-  <script src="index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/index.js"></script>
 </body>
 </html>
