@@ -21,4 +21,58 @@ html {
 }
 body{
     font-family: 'Manrope', sans-serif;
+    background-color: var(--Dark-Blue);
+}
+.container{
+  background-color: var(--Dark-Grayish-Blue);
+  height: 30rem;
+  width: 50rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  margin: 25vh auto;
+
+}
+.container h1{
+  color: var(--Neon-Green);
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  margin: 0.4rem;
+}
+.container p{
+  color: var(--Light-Cyan);
+  font-size: 2.8rem;
+  margin: 2rem;
+  font-weight: 800;
+}
+.container .pattern-divider-mobile{
+  display: none;
+}
+.container .icon{
+  margin: 4rem;
+  padding: 1.8rem;
+  border-radius: 2.8rem;
+  background-color: var(--Neon-Green);
+}
+.container .icon:hover{
+  cursor: pointer;
+  border: 0.1rem ;
+  box-shadow: 0 0 1rem 0.3rem var(--Neon-Green);
+}
+
+
+footer .attribution{
+    display: flex;
+    padding: 5rem 10vw 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.attribution p{
+    font-size: 1.5rem;
+    color: white;
+}
+.attribution a{
+    color: var(--Neon-Green);
+    text-decoration: none;
+    font-size: 1.5rem;
 }
