@@ -31,7 +31,7 @@ body{
   padding: 3.5rem 2rem;
   text-align: center;
   border-radius: 1.5rem;
-  margin: 25vh auto;
+  margin: 20vh auto 30vh;
   position: relative;
 }
 .container h1{
@@ -52,8 +52,8 @@ body{
   display: none;
 }
 .container .icon{
-  padding: 1.8rem;
-  border-radius: 2.8rem;
+  padding: 1.7rem;
+  border-radius: 2.7rem;
   background-color: var(--Neon-Green);
   position: absolute;
   top: 32rem;
@@ -80,7 +80,7 @@ footer .attribution{
     text-decoration: none;
     font-size: 1.5rem;
 }
-@media (max-width:576px) {
+@media (max-width:570px) {
   .container #pattern-divider-mobile{
     display: block;
   }
@@ -88,6 +88,9 @@ footer .attribution{
     display: none;
   }
   .container .icon{
-    left: 36vw;
+    left: 37vw;
+  }
+  .container{
+    margin: 20vh 5vw 30vh;
   }
 }

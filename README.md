@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![solution](./images/solution.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/N-Ignacio-Bouffanais/advice-generator-app)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -39,10 +39,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
-
 
 ### What I learned
 
