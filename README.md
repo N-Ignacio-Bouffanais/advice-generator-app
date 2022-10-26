@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![solution](./images/solution.JPG)
+![solution](./src/public/images/solution.JPG)
 
 ### Links
 
