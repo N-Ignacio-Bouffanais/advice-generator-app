@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Advice generator app</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <!--Google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +20,9 @@
   <div class="container">
     <h1>ADVICE # <span id="id"></span></h1>
     <p>"<span id="quote"></span>"</p>
-    <img id="pattern-divider-desktop" class="divider" src="/images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
-    <img id="pattern-divider-mobile" class="divider" src="/images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
-    <img class="icon" src="/images/icon-dice.svg" alt="icon" onclick="sendGetRequest()">
+    <img id="pattern-divider-desktop" class="divider" src="./public/images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
+    <img id="pattern-divider-mobile" class="divider" src="./public/images/pattern-divider-mobile.svg" alt="pattern-divider-mobile">
+    <img class="icon" src="./public/images/icon-dice.svg" alt="icon" onclick="sendGetRequest()">
   </div>
   
   <footer>
@@ -35,6 +35,6 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="/index.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
