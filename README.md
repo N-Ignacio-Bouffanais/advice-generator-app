@@ -65,6 +65,6 @@ I want to continue learning and making projects with javascript, css and html, a
 
 ## Author
 
-- Website - [Nicolas_Bouffanais](https://nicolas-bouffanais.vercel.app/src/index.html)
+- Website - [Nicolas_Bouffanais](https://portfolio-nicolas-bouffanais.vercel.app/)
 - Frontend Mentor - [@N-Ignacio-Bouffanais](https://www.frontendmentor.io/profile/N-Ignacio-Bouffanais)
 - Twitter - [@N_Bouffanais](https://twitter.com/N_Bouffanais)
